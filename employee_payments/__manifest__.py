@@ -4,7 +4,7 @@
     'category': 'Human Resources',
 	'author' : 'me',
     'description': """Hr Employee Payments""",
-    'depends': ['hr','hr_holidays','account','hr_contract','om_hr_payroll'],
+    'depends': ['hr','hr_holidays','account','hr_contract','hr_payroll','hrms_dashboard'],
     'website':'http://www.me.com/',
     'data': [
             'views/hr_employee_voucher_view.xml',
